@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**********************************selecters******************************** */
+body {
+  font-family: "Inter", sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  background-color: #585649;
+  padding: 60px 30px;
+}
+h1 {
+  margin-left: 120px;
+  display: inline-block;
+  font-size: 64px;
+  line-height: 70px;
+  color: #ffffff;
+}
+/* -----------------------------Footer container----------------------------- */
+footer {
+  background-color: #585649;
+}
+footer th {
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 30px;
+  text-transform: uppercase;
+}
+
+footer table {
+  margin: auto;
+}
+
+footer th,
+td {
+  padding: 20px 70px;
+  text-align: left;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+footer p {
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+/* ********************************* class selecters**********************************/
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  top: 60px;
+  left: 40%;
+}
+.nav-item {
+  float: left;
+  margin: 0px 20px;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 36px;
+  
+}
+.elipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  background: #fff6c1;
+  border: 1px solid #fff6bf;
+  border-radius: 50%;
+  top: 5%;
+}
+
+/* ---------------------------------Home container--------------------------------- */
+
+.main-img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.home p {
+  display: inline-block;
+  position: absolute;
+  font-family: "Goblin One", cursive;
+  color: #fff6c1;
+  margin: 20px;
+  font-size: 51px;
+  height: 178px;
+  top: 600px;
+  width: 721px;
+  left: 153px;
+}
+
+.btn {
+  background: #585649;
+  background-image: -webkit-linear-gradient(top, #585649, #585649);
+  background-image: -moz-linear-gradient(top, #585649, #585649);
+  background-image: -ms-linear-gradient(top, #585649, #585649);
+  background-image: -o-linear-gradient(top, #585649, #585649);
+  background-image: linear-gradient(to bottom, #585649, #585649);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #eddfdf 4px;
+  text-decoration: none;
+  position: absolute;
+  top: 800px;
+  left: 275px;
+}
+
+.btn:hover {
+  background: #585649;
+  background-image: -webkit-linear-gradient(top, #585649, #bab495);
+  background-image: -moz-linear-gradient(top, #585649, #bab495);
+  background-image: -ms-linear-gradient(top, #585649, #bab495);
+  background-image: -o-linear-gradient(top, #585649, #bab495);
+  background-image: linear-gradient(to bottom, #585649, #bab495);
+  text-decoration: none;
+}
+
+/* ---------------------------------MENU container--------------------------------- */
+
+.menu {
+  text-align: center;
+  color: #fff6c1;
+  background-color: #585649;
+}
+.menu-heading {
+  font-family: "Goblin One", cursive;
+  font-weight: 400;
+  font-size: 51px;
+  color: #fff6c1;
+  margin: 0;
+  padding: 60px 50px 0px;
+}
+.hcafe-menu-title {
+  font-size: 64px;
+  letter-spacing: 34%;
+  line-height: 70px;
+}
+
+.menu-table {
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.menu-table tr {
+  line-height: 75px;
+}
+
+.menu-table td {
+  padding: 40px;
+}
+
+/* ---------------------------------ABOUT container--------------------------------- */
+
+.about .about-us {
+  font-family: "Goblin One", cursive;
+  font-size: 51px;
+  width: 586.24px;
+  color: #585649;
+  position: absolute;
+  left: 150px;
+  margin-top: 200px;
+}
+.about .timing {
+  font-size: 20px;
+  width: 227px;
+  font-family: "Goblin One", cursive;
+  color: #585649;
+  position: relative;
+  left: 285px;
+  bottom: 150px;
+}
+.about {
+  background-color: #fff6bf;
+}
+.about-img {
+  position: relative;
+  width: 549px;
+  height: 466px;
+  padding: 150px 150px 0px;
+  left: 800px;
+}
+
+
+/*--------------------------------- Responsive---------------------------------- */
+
+
+/* *********************laptop************************ */
+
+@media screen and (max-width: 1500px){
+
+  header{
+    height: 30px;
+  }
+
+  h1 {
+    margin-left: 105px;
+    font-size: 40px;
+    line-height: 0;
+  }
+ 
+  .elipse {
+    width: 60px;
+    height: 60px;
+    top: 10%;
+    left: 60px;
+}
+
+  .navbar {
+    top: 45px;
+    left: 20%;
+}
+
+.nav-item {
+  margin: 0px 10px;
+ font-size: 20px;
+  line-height: 20px;
+}
+
+
+.home p {
+  margin: 10px;
+  font-size: 50px;
+  height: 80px;
+  top: 250px;
+  width: 450px;
+  left: 50px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 5px 10px 5px 11px;
+  border: solid #eddfdf 3px;
+  top: 465px;
+  left: 130px;
+}
+
+.menu-heading {
+  font-family: "Goblin One", cursive;
+  font-weight: 400;
+  font-size: 35px;
+  color: #fff6c1;
+  margin: 0;
+  padding: 40px 50px 0px;
+}
+.hcafe-menu-title {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.menu-table, .menu-table td {
+  font-size: 30px;
+  padding: 10px;
+}
+ 
+
+.about .about-us {
+  font-size: 25px;
+  width: 330px;
+  left: 25%;
+  margin-top: 45px;
+}
+
+
+.about-img {
+  width: 185px;
+  height: 165px;
+  padding: 35px 20px 45px;
+  left: 55%;
+}
+
+.about .timing {
+  font-size: 10px;
+  width: 127px;
+  position: relative;
+  left: 30%;
+  bottom: 61px;
+}
+
+.fa-brands {
+  font-size: 1.5em;
+  line-height: .08333em;
+  vertical-align: 0.125em;
+}
+
+footer a {
+  margin: 5px;
+  font-size: 12px;
+}
+
+footer th {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+footer th, td {
+  padding: 10px;
+}
+
+footer p {
+  padding: 10px;
+  font-size: 10px;
+}
+}
+
+
+
+
+
+
+
+/* *********************TAB************************ */
+
+
+@media screen and (max-width: 800px){
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .elipse {        
+    width: 40px;
+    height: 40px;
+    top: 13%;
+    left: 80px;
+}
+
+
+  .navbar {
+    left: 5%;
+}
+
+.nav-item {
+ font-size: 10px;
+}
+.home p {
+  font-size: 35px;
+  height: 80px;
+  width: 330px;
+  left: 50px;
+}
+
+.btn {
+  font-size: 12px;
+  border: solid #eddfdf 3px;
+  top: 400px;
+  left: 130px;
+}
+
+.menu-heading {
+  font-size: 20px;
+}
+.hcafe-menu-title {
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.menu-table, .menu-table td {
+  font-size: 20px;
+  padding: 5px;
+}
+ 
+.about .about-us {
+  left: 5%;
+
+}
+
+.about-img {
+  width: 185px;
+  height: 165px;
+  padding: 35px 20px 45px;
+  left: 325px;
+}
+
+.about .timing {
+  left: 15%;
+}
+.fa-brands {
+  font-size: 1.5em;
+
+}
+
+footer th {
+  font-size: 15px;
+}
+}
+
+
+/* *********************Mobile************************ */
+
+
+
+@media screen and (max-width: 600px){
+
+  h1 {
+    margin-left: 105px;
+    font-size: 30px;
+    line-height: 0;
+  }
+  .elipse {
+    top: 8%;
+}
+.navbar {
+  top: 30px;
+  left: 10%;
+}
+
+.home p {
+  margin: 10px;
+  font-size: 12px;
+  height: 80px;
+  top: 200px;
+  width: 140px;
+  left: 50px;
+}
+
+.btn {
+  font-size: 10px;
+  border: solid #eddfdf 2px;
+  top: 265px;
+  left: 58px;
+}
+.about .about-us {
+  font-size: 12px;
+  width: 150px;
+  left: 25px;
+  margin-top: 45px;
+}
+
+
+.about-img {
+  width: 134px;
+  height: 115px;
+  padding: 25px 20px 0px;
+  left: 145px;
+}
+
+
+.about .timing {
+  font-size: 5px;
+  width: 65px;
+  left: 50px;
+  bottom: 20px;
+}
+
+.fa-brands{
+  font-size: 1em;
+}
+footer a {
+  font-size: 7px;
+}
+
+footer th {
+  font-size: 10px;
+}
+
+footer th, td {
+  padding: 5px;
+}
+
+footer p {
+  font-size: 5px;
+}
+}
+
+
+
